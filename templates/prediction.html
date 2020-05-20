@@ -1,0 +1,40 @@
+<html>
+	<head>
+		<title>ICC World Cup Predictions</title>
+	</head>
+	<body>
+		<style>
+			html { 
+				background: url(static/background.jpg) no-repeat center center fixed; 
+				-webkit-background-size: cover;
+				-moz-background-size: cover;
+				-o-background-size: cover;
+				background-size: cover;
+			}	
+		</style>
+
+		
+		<div align="center"><h1 style="color: white; background-color: red; max-width: 25%; font-family: courier;" >{{res}}</h1></div>
+
+		
+		<div align="center"><h2 style="color: white; background-color: black; max-width: 25%; font-family: courier;" >
+			{{team1}} First 11:
+		</h2></div>
+		{% for element in players1: %}
+			<div align="center"><p style="color: white; background-color: black; max-width: 25%; font-family: courier;" >
+				{{element}}
+			</p></div>
+		{% endfor %}
+
+		
+		<div align="center"><h2 style="color: black; background-color: white; max-width: 25%; font-family: courier;" >
+			{{team2}} First 11:
+		</h2></font>
+		{% for element in players2: %}
+			<div align="center"><p style="color: black; background-color: white; max-width: 25%; font-family: courier;" >
+				{{element}}
+			</p></div>
+		{% endfor %}
+
+	</body>
+</html>

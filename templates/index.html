@@ -1,0 +1,77 @@
+<!doctype html>
+<html>
+    <head>
+        <title>ICC World Cup Predictions</title>
+    </head>
+    <body>
+	<link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css" integrity="sha384-      		Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous">
+	
+	<style>
+		body, html {
+		  height: 100%;
+		}
+
+		.bg-img {
+		  /* The image used */
+		  background-image: url("static/background.jpg");
+
+		  /* Control the height of the image */
+		  min-height: 700px;
+
+		  /* Center and scale the image nicely */
+		  background-position: center;
+		  background-repeat: no-repeat;
+		  background-size: cover;
+		  position: relative;
+		}
+	</style>
+
+	<div class = "bg-img" align="center">
+		
+		<div align="center" style="max-width: 50%; position: relative; bottom: -100px">
+			<h1 style="color: black; font-family: courier;" align = 'center'> Select the teams, </h1>
+			<h1 style="color: black; font-family: courier;" align = 'center'> see the winner prediction! </h1>
+			
+			<select form="teams" id="id1" name="team1">
+				<option selected>Team 1</option>
+				<option value="Afghanistan">Afghanistan</option>
+				<option value="Australia">Australia</option>
+				<option value="Bangladesh">Bangladesh</option>
+				<option value="England">England</option>
+				<option value="India">India</option>
+				<option value="New Zealand">New Zealand</option>
+				<option value="Pakistan">Pakistan</option>
+				<option value="South Africa">South Africa</option>
+				<option value="Sri Lanka">Sri Lanka</option>
+				<option value="West Indies">West Indies</option>
+			</select>
+
+			<select form="teams" id="id2" name="team2">
+				<option selected>Team 2</option>
+				<option value="Afghanistan">Afghanistan</option>
+				<option value="Australia">Australia</option>
+				<option value="Bangladesh">Bangladesh</option>
+				<option value="England">England</option>
+				<option value="India">India</option>
+				<option value="New Zealand">New Zealand</option>
+				<option value="Pakistan">Pakistan</option>
+				<option value="South Africa">South Africa</option>
+				<option value="Sri Lanka">Sri Lanka</option>
+				<option value="West Indies">West Indies</option>
+			</select>
+		
+
+			
+			<form id="teams" action="#" method ="post">
+				<input class="btn btn-success btn-lg" type="submit" value="Predict!"></input>
+			</form>
+		</div>
+
+	</div>
+
+	<script src="https://code.jquery.com/jquery-3.4.1.slim.min.js" integrity="sha384-J6qa4849blE2+poT4WnyKhv5vZF5SrPo0iEjwBvKU7imGFAV0wwj1yYfoRSJoZ+n" crossorigin="anonymous"></script>
+	<script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js" integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo" crossorigin="anonymous"></script>
+	<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.min.js" integrity="sha384-				  wfSDF2E50Y2D1uUdj0O3uMBJnjuUD4Ih7YwaYd1iqfktj0Uod8GCExl3Og8ifwB6" crossorigin="anonymous"></script>
+
+    </body>
+</html>
